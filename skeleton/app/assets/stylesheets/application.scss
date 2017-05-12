@@ -16,7 +16,7 @@
 @import "variables";
 
 html {
-  height: 100%;
+  // height: 100%;
 }
 
 body {
@@ -101,4 +101,34 @@ h3 {
   font-size: 24px;
   text-align: center;
   color: $black;
+}
+
+.pokemonList {
+  font-size: 10px;
+  max-height: 100%;
+  overflow: scroll;
+  min-width: 300px;
+}
+
+.pokeListItem {
+  font-size: 2em;
+}
+
+.pokeListItem img {
+  display: block;
+}
+
+.pokeListItem img:hover {
+  background-color: grey;
+}
+
+.main {
+  margin: 0;
+  max-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.onePokemon {
+  color: red;
 }
